@@ -1,14 +1,14 @@
 package view.main;
 
 import java.awt.FlowLayout;
-import java.awt.event.*;
-import javax.swing.*;
-import javax.swing.table.*;
-import java.util.*;
-import model.*;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+import dao.JenisMemberDao;
+import dao.MemberDao;
 import view.jenismember.JenisMemberFrame;
 import view.member.MemberFrame;
-import dao.*;
 
 public class MainFrame extends JFrame {
     private JenisMemberFrame jenisMemberFrame;
